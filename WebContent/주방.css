@@ -1,0 +1,215 @@
+body{
+	background-color: ivory;
+	font-family: '³ª´®°íµñ', 'Malgun Gothic', sans-serif;
+
+	font-weight: bold;
+	font-size: 20px;
+}
+            header{
+            	border:2px solid;
+                width : 100%;
+                height: 80px;
+                background-color: #C79467;
+                text-align : center;
+                padding-top : 30px;
+                font-size : 40px;
+                border-radius: 20px;
+            }
+            .menuList1{
+                background-color:#FFF4CB;
+                border:2px solid;
+                width: 350px;
+                height: 400px;
+                position:absolute;
+                margin-top:5px;
+                margin-left: 0px;
+                border-radius: 10px;
+            }
+            .menuList2{
+                background-color:#FFF4CB;
+                border:2px solid;
+                width: 350px;
+                height: 400px;
+                position:absolute;
+                margin-top:5px;
+                margin-left: 390px;
+                border-radius: 10px;
+            }
+            
+            .menuList3{
+                background-color:#FFF4CB;
+                border:2px solid;
+                width: 350px;
+                height: 400px;
+                position:absolute;
+                margin-top:5px;
+                margin-left: 780px;
+                border-radius: 10px;
+            }
+            
+            .menuList4{
+                background-color:#FFF4CB;
+                border:2px solid;
+                width: 350px;
+                height: 400px;
+                position:absolute;
+                margin-top:5px;
+                margin-left: 1170px;
+                border-radius: 10px;
+            }
+            
+            .menuList5{
+                background-color:#FFF4CB;
+                border:2px solid;
+                width: 350px;
+                height: 400px;
+                position:absolute;
+                margin-top:5px;
+                margin-left: 1550px;
+                border-radius: 10px;
+                
+            }
+            
+            .menuList6{
+                background-color:#FFF4CB;
+                border:2px solid;
+                width: 350px;
+                height: 400px;
+                position:absolute;
+                margin-left: 0px;
+                margin-top: 430px;
+                border-radius: 10px;
+            }
+            
+            .menuList7{
+                background-color:#FFF4CB;
+                border:2px solid;
+                width: 350px;
+                height: 400px;
+                position:absolute;
+                margin-left: 390px;
+                margin-top: 430px;
+                border-radius: 10px;
+            }
+            
+            .menuList8{
+                background-color:#FFF4CB;
+                border:2px solid;
+                width: 350px;
+                height: 400px;
+                position:absolute;
+                margin-left: 780px;
+                margin-top: 430px;
+                border-radius: 10px;
+            }
+            
+            .menuList9{
+                background-color:#FFF4CB;
+                border:2px solid;
+                width: 350px;
+                height: 400px;
+                position:absolute;
+                margin-left: 1170px;
+                margin-top: 430px;
+                border-radius: 10px;
+            }
+            
+            .menuList10{
+                background-color:#FFF4CB;
+                border:2px solid;
+                width: 350px;
+                height: 400px;
+                position:absolute;
+                margin-left: 1550px;
+                margin-top: 430px;
+                border-radius: 10px;
+                border-radius: 10px;
+            }
+            .number1{
+            	background-color: #D4C2AA;
+                height:30px;
+                text-align:center;
+                border-radius: 10px 10px 0px 0px;
+            }
+            .waiting_number{
+                background-color:#B0A08A;
+                height:30px;
+                text-align:center;
+            }
+            .number2{
+                height:30px;
+                background-color: #D4C2AA;
+                text-align:center;
+                border-radius: 10px 10px 0px 0px;
+
+            }
+            .number3{
+                height:30px;
+                background-color: #D4C2AA;
+                text-align:center;
+                border-radius: 10px 10px 0px 0px;
+
+            }
+            .number4{
+                height:30px;
+                background-color: #D4C2AA;
+                text-align:center;
+                border-radius: 10px 10px 0px 0px;
+
+            }
+            .number5{
+                height:30px;
+                background-color: #D4C2AA;
+                text-align:center;
+                border-radius: 10px 10px 0px 0px;
+
+            }
+            .number6{
+                height:30px;
+                background-color: #D4C2AA;
+                text-align:center;
+                border-radius: 10px 10px 0px 0px;
+
+            }
+            .number7{
+                height:30px;
+                background-color: #D4C2AA;
+                text-align:center;
+                border-radius: 10px 10px 0px 0px;
+
+            }
+            .number8{
+                height:30px;
+                background-color: #D4C2AA;
+                text-align:center;
+                border-radius: 10px 10px 0px 0px;
+
+            }
+            .number9{
+                height:30px;
+                background-color: #D4C2AA;
+                text-align:center;
+				border-radius: 10px 10px 0px 0px;
+            }
+            .number10{
+                height:30px;
+                background-color: #D4C2AA;
+                text-align:center;
+                border-radius: 10px 10px 0px 0px;
+            }
+            .name{
+            	margin-top:40px;
+            	float:left;
+            	width:175px;
+            	height: 330px;
+            	text-align:center;
+            	
+            }
+            .count{
+            	margin-top:40px;
+            	float:left;
+            	width:175px;
+            	height: 330px;
+            	text-align:center;
+            }
+        

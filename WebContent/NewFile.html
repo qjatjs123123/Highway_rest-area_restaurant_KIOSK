@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+</head>
+<body>
+    <button id="upload" onclick="cc()">upload image</button>
+    <input type="file" id="upload1" accept="img/*" onchange="ch()" >
+    
+    
+    <script type="text/javascript">
+    var form = new FormData();
+    var settings;
+    var URL=0;
+    function cc(){
+    	$.ajax(settings).done(function (response) {
+            
+            var a = JSON.parse(response);
+            console.log(a);
+            alert(a.data.link);
+            URL = a.data.link;
+          });
+    	alert(URL)
+    }
+    function ch(){
+       var ttt = document.getElementById('upload1').files[0];
+       alert(ttt);
+       form.append("image", ttt);
+        
+        settings = {
+          "url": "https://api.imgur.com/3/image",
+          "method": "POST",
+          "timeout": 0,
+          "headers": {
+            "Authorization": "Client-ID ecbb1341cd264fb"
+          },
+          "processData": false,
+          "mimeType": "multipart/form-data",
+          "contentType": false,
+          "data": form
+        };
+    }
+ 
+    
+    </script>
+</body>
+</html>
+>

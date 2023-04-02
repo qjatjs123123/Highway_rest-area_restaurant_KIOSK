@@ -1,0 +1,231 @@
+body{
+	display : flex;
+	flex-direction : column;
+	background-color : ivory;
+}
+header {
+	width: 100%;
+	height: 140px;
+	background-color: rgb(110,73,58);
+	text-align: left;
+	font-size: 40px;
+	display : flex;
+	justify-content: space-around;
+	align-items: center;
+	color: ivory;
+}
+h1{
+	text-align : center;
+}
+
+section {
+	width:100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-flow: row wrap;
+	background-color: #C79467;
+}
+
+.menu {
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+	flex-flow: column wrap;
+	margin: 10 px;
+	background-color: #C79467;
+}
+
+.pic {
+	padding: 0;
+	width: 250px;
+	height: 250px;
+}
+.no{
+	width:80px;
+	height:80px;
+	background-color:rgb(110,73,58);
+}
+.title{
+	font-size : 90px;
+}
+
+.cart {
+	width: 80px;
+	height: 80px;
+	background-image:
+		url('https://i.ibb.co/HBGZdRZ/thin-line-shopping-card-trolley-icon-on-white-background.jpg')
+		no-repeat center center;
+	z-index: 19999;
+}
+
+.name, .price {
+	width: 100px;
+	background-color: rgb(114, 36, 23);
+	text-align: center;
+	border: none;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+	pointer-events: none;
+	margin-top : 5px;
+}
+
+.ranking {
+	margin: 0 auto;
+	padding: 0 auto;
+	width: 248px;
+	background-color: white;
+	text-align: center;
+	border: none;
+	font-size: 20px;
+	color: black;
+	font-weight: bold;
+	pointer-events: none;
+}
+
+.btn {
+	width: 110px;
+	height: 30px;
+	background-color: gray;
+	text-align: center;
+	border: none;
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+	margin-bottom : 5px;
+	margin-top : 10px;
+}
+
+.group {
+	margin: 0 auto;
+	padding: 0;
+	width: 250px;
+	height: auto;
+	text-align: center;
+	background-color: rgb(114, 36, 23);
+	box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.modal_wrap {
+	display: none;
+	width: 500px;
+	height: 700px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -300px 0 0 -250px;
+	background: #ddd;
+	z-index: 2;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 30px;
+	text-align: center;
+	border-radius: 10px;
+	
+}
+
+.black_bg {
+	display: none;
+	position: absolute;
+	content: "";
+	width: 150%;
+	height: 150%;
+	background-color: rgba(0, 0, 0, 0.5);
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.modal_close {
+	width: 26px;
+	height: 26px;
+	position: absolute;
+	top: -30px;
+	right: 0;
+}
+
+.modal_close>a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	background: url(https://img.icons8.com/metro/26/000000/close-window.png);
+	text-indent: -9999px;
+}
+
+#divModal {
+	display: flex;
+	overflow: auto;
+	width: 510px;
+	height: 510px;
+	flex-direction: column;
+	flex-wrap : nowrap;
+}
+
+.LIST {
+	width: 490px;
+	height: 70px;
+	background-color: rgb(242,242,242);
+	padding: 5px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+
+.name_div {
+	font-size: 30px;
+	float: left;
+	width: 200px;
+	text-align: left;
+	margin-top : 13px;
+	margin-bottom : 17px;
+}
+
+.cost_div {
+	width: 85px;
+	font-size: 30px;
+	float: left;
+	text-align: left;
+	margin-right: 15px;
+}
+
+.ps_btn, .ms_btn{
+	background-color: rgb(242,242,242);
+	border : none;
+	font-size : 18px;
+}
+.ps_btn {
+	float: left;
+	font-weight : bold;
+	
+}
+
+.count_txt {
+	width: 15px;
+	float: left;
+	text-align : center;
+}
+.sum{
+	width : 80px;
+	border : none;
+	background-color: #ddd;
+	text-align : right;
+	color : red;
+	font-size : 20px;
+}
+#btn_order{
+	font-size : 18px;
+}
+#sum_span{
+	font-size : 20px;
+}
+#won {
+	font-size : 20px;
+}
+.del_btn{
+	border : none;
+	background-color: rgb(242,242,242);
+	color : red;
+	font-size : 20px;
+}

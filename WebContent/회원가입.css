@@ -1,0 +1,60 @@
+body {
+    height: 100%;
+    background-color:  ivory;
+}
+
+header {
+    color: rgb(124, 77, 16);
+    text-align: center;
+    font-size: x-large;
+    width: 100%;
+    height: 10%;
+}
+
+section {
+
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+    margin-left: -250px;
+    font-size: larger;
+    width: 100%;
+    height: 100%;
+    font-weight: 700;
+}
+textarea{
+    resize:none;
+    width:480px;
+    height:100px;
+    font-size: large;
+}
+h3{
+    text-decoration: underline;
+}
+#ch4{
+    font-weight: 900;
+}
+.input{
+    width:235px;
+    height:50px;
+    margin-top:4px;
+    background-color: rgb(124, 77, 16);
+    font-size:larger;
+    color:white
+}
+.center {
+
+    margin-left: +250px;
+
+}
+
+.center1 {
+    float: left;
+    margin-right: 13px;
+    width : 235px;
+    height : 50px;
+    margin-top:30px;
+    background-color: dimgray;
+    font-size: larger;
+    color:white;
+}
